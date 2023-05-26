@@ -2,7 +2,11 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgb(239, 174, 174);
+  /* background-color: rgb(239, 174, 174); */
+  background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .arrow {
@@ -49,7 +53,7 @@ body {
 
 .nav-title {
   color: #ffffff;
-  border: 1.5px solid black;
+  border: 1.5px solid white;
   padding: 5px 5px 5px 5px;
   font-size: clamp(20px, 1.5vw, 25px);
   font-weight: 800;
@@ -137,7 +141,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .main {
   margin-left: 10px;
@@ -172,7 +176,7 @@ a {
 .category {
   text-align: center;
   padding: 10px;
-  border: 5px solid black;
+  border: 5px solid white;
   margin-right: 10px;
   margin-left: 10px;
   cursor: pointer;
@@ -184,7 +188,7 @@ a {
   margin-bottom: 0px;
   
   margin: 10px;
-  border: 5px solid black;
+  border: 5px solid white;
   
 }
 
@@ -209,7 +213,7 @@ a {
   margin-bottom: 0px;
   
   margin: 10px;
-  border: 5px solid black;
+  border: 5px solid white;
   
 }
 
@@ -233,7 +237,7 @@ a {
   margin-bottom: 0px;
   
   margin: 10px;
-  border: 5px solid black;
+  border: 5px solid white;
   
 }
 
@@ -247,7 +251,19 @@ a {
   font-size: 25px;
   margin-top: 50px;
   margin-left: 30px;
-  
-  
 }
 
+.leaderboard-sec{
+  height: 300px;
+  border: 5px solid white;
+  margin: 10px;
+}
+
+.leaderboard-sec > h1{
+  text-align: center;
+}
+
+.leaderboard-sec > h2{
+  margin-top: 40px;
+  margin-left: 20px;
+}
